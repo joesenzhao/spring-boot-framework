@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="project-a-api" />
+        <module name="project-mybatis-helper" />
+        <module name="project-a-service" />
+        <module name="project-b-api" />
+        <module name="project-b-web" />
+        <module name="project-a-web" />
+        <module name="project-a-dao" />
+        <module name="project-framework-base" />
+        <module name="project-b-service" />
+        <module name="project-b-dao" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="project-a-api" options="-parameters" />
+      <module name="project-a-dao" options="-parameters" />
+      <module name="project-a-service" options="-parameters" />
+      <module name="project-a-web" options="-parameters" />
+      <module name="project-b-dao" options="-parameters" />
+      <module name="project-b-service" options="-parameters" />
+      <module name="project-b-web" options="-parameters" />
+      <module name="project-framework-base" options="-parameters" />
+      <module name="project-mybatis-helper" options="-parameters" />
+    </option>
+  </component>
+</project>

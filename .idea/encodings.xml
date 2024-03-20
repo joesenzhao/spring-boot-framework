@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/project-a/project-a-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-a/project-a-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-a/project-a-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-a/project-a-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-a/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-b/project-b-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-b/project-b-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-b/project-b-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-b/project-b-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-b/project-b-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-b/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-framework/project-framework-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-framework/project-mybatis-helper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-framework/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
