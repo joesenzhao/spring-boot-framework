@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="project-api-doc" />
         <module name="project-a-api" />
         <module name="project-mybatis-helper" />
         <module name="project-a-service" />
@@ -25,6 +26,7 @@
       <module name="project-a-dao" options="-parameters" />
       <module name="project-a-service" options="-parameters" />
       <module name="project-a-web" options="-parameters" />
+      <module name="project-api-doc" options="-parameters" />
       <module name="project-b-dao" options="-parameters" />
       <module name="project-b-service" options="-parameters" />
       <module name="project-b-web" options="-parameters" />
