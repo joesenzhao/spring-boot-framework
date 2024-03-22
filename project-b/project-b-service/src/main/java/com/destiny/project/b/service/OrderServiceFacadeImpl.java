@@ -21,10 +21,10 @@ import java.util.List;
 @Service("orderServiceFacade")
 public class OrderServiceFacadeImpl implements OrderServiceFacade {
     @Resource
-    OrderMapper orderMapper;
+    private OrderMapper orderMapper;
 
     @Override
-    public Result<List<OrderResult>> getOrderById(OrderParam param) {
+    public Result<List<OrderResult>> getOrderList(OrderParam param) {
         OrderExample orderExample = new OrderExample();
         OrderExample.Criteria criteria = orderExample.createCriteria();
         List<Order> orders = orderMapper.selectByExample(orderExample);
@@ -41,5 +41,10 @@ public class OrderServiceFacadeImpl implements OrderServiceFacade {
             resultList.add(orderResult);
         }
         return Result.buildSuccess(resultList);
+    }
+
+    @Override
+    public String clientTest() {
+        return "成功";
     }
 }

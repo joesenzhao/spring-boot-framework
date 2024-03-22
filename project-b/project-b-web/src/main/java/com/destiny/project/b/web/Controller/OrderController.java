@@ -4,10 +4,7 @@ import com.destiny.project.b.api.OrderServiceFacade;
 import com.destiny.project.b.api.param.OrderParam;
 import com.destiny.project.b.api.result.OrderResult;
 import com.destiny.project.framework.base.api.Result;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -17,11 +14,16 @@ import java.util.List;
 public class OrderController
 {
     @Resource
-    OrderServiceFacade orderServiceFacade;
+    private OrderServiceFacade orderServiceFacade;
 
     @PostMapping("/getOrderList")
     public Result<List<OrderResult>>getOrderList(@RequestBody OrderParam orderParam){
-        return orderServiceFacade.getOrderById(orderParam);
+        return orderServiceFacade.getOrderList(orderParam);
+    }
+
+    @GetMapping("/clientTest")
+    public Result<?>clientTest(){
+        return Result.buildSuccess(orderServiceFacade.clientTest());
     }
 
 }

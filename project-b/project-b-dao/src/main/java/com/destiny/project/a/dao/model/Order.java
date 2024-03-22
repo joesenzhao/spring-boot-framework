@@ -7,7 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
-* Created by Mybatis Generator on 2024/03/20
+* Created by Mybatis Generator on 2024/03/22
 */
 @Data
 @Builder
@@ -46,7 +46,7 @@ public class Order implements Serializable {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     @Override
     public String toString() {
@@ -66,7 +66,7 @@ public class Order implements Serializable {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     @Override
     public boolean equals(Object that) {
@@ -89,7 +89,7 @@ public class Order implements Serializable {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     @Override
     public int hashCode() {

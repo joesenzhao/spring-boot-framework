@@ -21,7 +21,7 @@ public class OrderExample {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     public OrderExample() {
         oredCriteria = new ArrayList<Criteria>();
@@ -29,7 +29,7 @@ public class OrderExample {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     public void setOrderByClause(String orderByClause) {
         this.orderByClause = orderByClause;
@@ -37,7 +37,7 @@ public class OrderExample {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     public String getOrderByClause() {
         return orderByClause;
@@ -45,7 +45,7 @@ public class OrderExample {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     public void setDistinct(boolean distinct) {
         this.distinct = distinct;
@@ -53,7 +53,7 @@ public class OrderExample {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     public boolean isDistinct() {
         return distinct;
@@ -61,7 +61,7 @@ public class OrderExample {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     public List<Criteria> getOredCriteria() {
         return oredCriteria;
@@ -69,7 +69,7 @@ public class OrderExample {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     public void or(Criteria criteria) {
         oredCriteria.add(criteria);
@@ -77,7 +77,7 @@ public class OrderExample {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     public Criteria or() {
         Criteria criteria = createCriteriaInternal();
@@ -87,7 +87,7 @@ public class OrderExample {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     public Criteria createCriteria() {
         Criteria criteria = createCriteriaInternal();
@@ -99,7 +99,7 @@ public class OrderExample {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     protected Criteria createCriteriaInternal() {
         Criteria criteria = new Criteria();
@@ -108,7 +108,7 @@ public class OrderExample {
 
     /**
      *
-     * @mbg.generated 2024-03-20 20:32:23
+     * @mbg.generated 2024-03-22 17:20:04
      */
     public void clear() {
         oredCriteria.clear();
@@ -117,7 +117,7 @@ public class OrderExample {
     }
 
     /**
-     * APPLY_ORDER 2024-03-20 20:32:23
+     * APPLY_ORDER 2024-03-22 17:20:04
      */
     protected abstract static class GeneratedCriteria {
         protected List<Criterion> criteria;
@@ -522,7 +522,7 @@ public class OrderExample {
     }
 
     /**
-     * APPLY_ORDER 2024-03-20 20:32:23
+     * APPLY_ORDER 2024-03-22 17:20:04
      */
     public static class Criterion {
         private String condition;
