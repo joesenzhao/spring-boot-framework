@@ -62,7 +62,7 @@ public class Swagger2Config  {
     public Docket vApp100(){
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
-                .groupName(ApiVersionConstant.VERSION_1_0_0)
+                .groupName("APP接口文档V1.0.0")
                 .select()
                 .apis(input -> {
                     ApiVersion apiVersion = input.getHandlerMethod().getMethodAnnotation(ApiVersion.class);
@@ -79,7 +79,7 @@ public class Swagger2Config  {
     public Docket vApp200(){
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
-                .groupName(ApiVersionConstant.VERSION_2_0_0)
+                .groupName("APP接口文档V2.0.0")
                 .select()
                 .apis(input -> {
                     ApiVersion apiVersion = input.getHandlerMethod().getMethodAnnotation(ApiVersion.class);
